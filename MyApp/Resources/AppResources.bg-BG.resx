@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 Заключване на екрана</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>Създаване нов</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Елемент от меню</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>За</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>Заключване на екрана</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>ГРЕШКА! Името вече в употреба или невалидни знаци!</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>Заключване на екрана</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>Цвят на фона</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>Цвят на рамка</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>Размер на рамката</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>Пейзаж образуване</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>Портрет формат</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>Квадратен формат</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>копие</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>намаляване на</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>наляво</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>право</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>Завъртане наляво</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>завъртане надясно</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>Изберете всички</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>Добави</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>Се откажете от всички</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>Картина</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>Снимки</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>Добавяне на картини</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>всички снимки</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>напред</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>предишния</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>записани снимки</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>Изберете снимките за добавяне</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>Качество</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>Нищо избрани</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>Няма други заключване на екрана</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>Копие</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>Не екрани заключване налични</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>Щракнете тук, за да създадете първия заключване на екрана</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>Не може да създаде заключване на екрана.
+
+Трябва да има поне една картина.</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>натиснете тук</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>Няма снимки на разположение</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>Трябва да има поне една снимка</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>Цвят за акцентиране</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>№</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>Заключване екран промяна</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>Изтриване заключване екран с всички настройки и снимки</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>Фон агенти за това приложение са забранени от страна на потребителя</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>Информация за цвят</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>Размер на информация</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>Информация за прозрачност</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>Ти каза не, така че не може да актуализира вашия фон</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>Промяна на заключване на екрана поддръжка</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>Обновяване</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>Първо да създадете заключване на екрана</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>Не поставям</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>Запишете и споделете</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>Заключване на екрана вече може да се промени</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>Само в пълната версия</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>Запис</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>Картина е записан</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>зареждане...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>Обновяване не е възможно</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>Проверка на настройките</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>Няма снимки на разположение</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>Щракнете тук, за да добавите картини</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>Рамка на картина</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>Снимки</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>Цвят на фона</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>Картини за фон</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>Снимки прозрачност</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>Да не се използва</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>Употреба</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>Потребителя информации</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>Потребителски снимки</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>Цвят на шрифта</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>Вертикално подравняване</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>Вече използвани цветове</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>Цвят на предния план</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>Фон информация</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>Система за цветове</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>Прозрачност</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>Купуват този апартамент</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>Съобщение до xtrose</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>Процент този ап</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>Това приложение изглежда да се обжалва пред вас.
+Към програма apps е отнема време и е трудно.
+Един добър преглед може да ни помогне да го разпространява по-нататък.
+
+Много благодаря</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>ден</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>дни</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>часа</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>минути</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>минути</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>Благодарим ви за закупуването на този ап</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>Съобщение до xtrose</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>Не сега</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>Курс</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>Моля, прегледайте тази ап 5 звезди</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>Не искате да напишете мнение.
+
+Моля напишете съобщение нас ако имате някакви предложения или проблеми.</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>Благодаря ти много много</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>Пробен период е изтекъл</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>Лесно създаване на заключване на екрана в Windows 10.
+Използвайте собствени картини и да видите как заключване на екрана се променя всеки половин час.
+Има много възможности за това.
+Вие ще бъдете изумени!
+
+- Поддържа всички показване формати
+- Създавам нов заключване екран от 3 различни формати на изображението на всеки 30 минути
+- Промяна на картини за фон
+- Промяна на потребителски снимки
+- Разширено потребителска информация
+- Регулируеми цветове
+- Използване на безкрайно много изображения
+- Неограничени възможности</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>Заключване на екрана</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>Фоново изображение</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>Тапет</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>Излагам на показ картина</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>Картина работния плот</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>foto снимка картина изображение графичен дизайн</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>Добави избраните снимки преди това</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>Промяна на езика</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>Пробна версия</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>Облик</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>Изисква</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>Случайни</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>Случайно от всички</value>
+</data>
+</root>

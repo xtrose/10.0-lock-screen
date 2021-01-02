@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 锁定屏幕</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>创建新</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>菜单项</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>锁定屏幕</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>概述</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>错误!名称已经在使用或无效的字符!</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>锁定屏幕</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>框架颜色</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>帧大小</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>横向格式</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>纵向格式</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>方格式</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>副本</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>切</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>的权利</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>旋转左</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>旋转右</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>取消所有</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>添加图片</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>所有图片</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>以前</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>保存图片</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>选择图片的添加</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>不选中任何内容</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>没有其他锁定屏幕</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>副本</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>没有可用的锁定屏幕</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>点击这里来创建您的第一锁定屏幕</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>无法创建锁定屏幕。
+
+必须有至少一张照片。</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>请点击这里</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>没有可用的图片</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>必须有至少一张图片</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>强调文字颜色</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>锁换网器</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>删除锁定屏幕的所有图片和设置</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>后台代理为此应用程序已被禁用的用户</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>信息颜色</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>信息大小</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>信息透明度</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>你说没有，所以我不能更新你的背景</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>更改锁定屏幕启用</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>第一次创建一个锁定屏幕</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>未设置</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>保存和共享</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>锁定屏幕可以不再更改</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>只在完整版中可用</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>保存图片</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>加载...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>刷新不可能</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>检查设置</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>没有可用的图片</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>点击此处添加图片</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>相框</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>最低</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>图片透明度</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>不使用</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>用户信息</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>用户图片</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>字体颜色</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>垂直对齐方式</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>已经使用的颜色</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>前景颜色</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>信息背景</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>系统颜色</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>买这款应用程序</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>到 xtrose 的消息</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>这款应用率</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>此应用程序似乎对你有吸引力。
+对程序的应用程序是耗时而且非常困难。
+好的复习可以帮助我们进一步传播。
+
+谢谢</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>感谢您购买这款应用程序</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>回</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>到 xtrose 的消息</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>不是现在</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>率为 5 星</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>不想要写检讨。
+
+请写一条消息我们如果您有任何建议或问题。</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>非常谢谢你</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>试用期过期</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>很容易创建 Windows 10 锁定电脑屏幕。
+使用您自己的图片，看看你的锁定屏幕如何变化每半个小时。
+有很多选项可用于此。
+你将会惊讶!
+
+- 支持所有的显示格式
+- 创建一个新的锁定屏幕，3 个不同的图像格式每隔 30 分钟
+- 更改背景图片
+- 更改用户的图片
+- 高级用户信息
+- 可调颜色
+- 使用无限许多图像
+- 无限的可能性</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>锁定屏幕</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>背景图像</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>壁纸</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>显示图片</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>桌面图片</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>胶片照片图片图像图形设计</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>到以前添加所选图片</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>更改语言</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>外观</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>所需</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>随机</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>从所有随机</value>
+</data>
+</root>

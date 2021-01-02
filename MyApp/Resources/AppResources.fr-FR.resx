@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 Écran de serrure</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>Créer nouveau</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Élément de menu</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>Propos</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>Écrans de verrouillage</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>Vue d'ensemble</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>ERREUR ! Nom déjà utilisées ou des caractères non valides !</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>Écran de serrure</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>La couleur d'arrière-plan</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>Couleur de l'armature</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>Taille de l'image</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>Format paysage</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>Au format portrait</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>Format carré</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>copie</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>coupe</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>gauche</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>droit</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>tourner à gauche</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>tourner à droite</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>Sélectionner tout</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>retirer de tous</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>Photo de</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>Photos de</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>Ajouter photos de</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>toutes les images</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>suivant</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>précédente</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>sauvé photos</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>Select images à ajouter</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>Qualité</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>Rien choisi</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>Ne autres aucun écran de verrouillage</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>Ne aucun écran de verrouillage disponible</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>Cliquez ici pour créer votre premier écran de serrure</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>Impossible de créer l'écran de serrure.
+
+Il doit y avoir au moins une photo.</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>cliquez ici</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>Ne aucuns photos disponibles</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>Il doit y avoir au moins une photo</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>Couleur d'accentuation</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>Changeur d'écran de serrure</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>Supprimer écran de serrure avec toutes les photos et les paramètres</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>Agents de fond pour cette application ont été désactivées par l'utilisateur</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>Infos couleur</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>La taille des informations</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>Transparence d'informations</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>Vous dit non, donc je ne peux pas mettre à jour votre arrière-plan</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>Changement écran de verrouillage activé</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>Actualisation</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>Tout d'abord créer un écran de serrure</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>Pas la valeur</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>Enregistrer et partager</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>Écran de verrouillage de n'est plus modifiable</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>Seulement disponible dans la version complète</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>Photo a été sauvé</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>le chargement...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>Actualisation n'est pas possible</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>Paramètres de contrôle</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>Ne aucuns photos disponibles</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>Cliquez ici pour ajouter des photos</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>Fond</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>Cadre photo</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>Photos de</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>La couleur d'arrière-plan</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>Les images d'arrière-plan</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>La transparence des images</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>Ne pas utiliser</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>Utilisation de</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>Des informations utilisateur</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>Photos de l'utilisateur</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>Couleur de police</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>Alignement vertical</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>Déjà utilisé des couleurs</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>Couleur de premier plan</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>Renseignements historique</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>Couleurs système</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>Transparence</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>Acheter ce soft</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>Comment entrer en contact avec</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>Message à xtrose</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>Taux de ce soft</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>Cette application semble faire appel à vous.
+Au programme apps est longue et difficile.
+Une bonne critique peut nous aider à étendre davantage.
+
+Merci beaucoup</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>jour</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>jours</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>heures</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>heures</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>Merci d'avoir acheté ce soft</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>Arrière</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>Message à xtrose</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>Pas maintenant</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>S'il vous plaît examiner cette étoiles app 5</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>Ne veux pas écrire une critique.
+
+S'il vous plaît écrivez-nous un message si vous avez des suggestions ou des problèmes.</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>Merci beaucoup</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>Expiration de la période d'essai de</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>Facilement créer un écran de serrure comme dans Windows 10.
+Utilisez vos propres photos et voir comment votre écran de serrure change toutes les demi-heures.
+Il y a beaucoup d'options disponibles pour cela.
+Vous serez étonné !
+
+- Supporte tous les formats d'affichage
+- Créé un nouvel écran de verrouillage de 3 différents formats d'image toutes les 30 minutes
+- Changer les images d'arrière-plan
+- Changer les images de l'utilisateur
+- Informations de l'utilisateur avancé
+- Couleurs réglables
+- Utilisation des infiniment beaucoup d'images
+- Des possibilités</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>D'écran de serrure</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>Image d'arrière-plan</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>Papier peint</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>Image perso</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>Image du Bureau</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>foto photo photo image graphique conception</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>Photos ajouter sélectionnée précédemment</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>Changer la langue de</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>Version d'essai</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>L’apparence</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>Requise</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>Aléatoire</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>Au hasard de tous les</value>
+</data>
+</root>

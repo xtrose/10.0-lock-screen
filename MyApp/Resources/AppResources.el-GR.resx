@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 Οθόνη κλειδαριών</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>Δημιουργία νέων</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο μενού</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>Για</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>Κλειδαριά οθόνες</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>Επισκόπηση</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>ΣΦΆΛΜΑ! Όνομα ήδη σε χρήση ή μη έγκυρους χαρακτήρες!</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>Οθόνη κλειδαριών</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>Χρώμα φόντου</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>Πλαίσιο χρώματος</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>Το μέγεθος του πλαισίου</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>Τοπίο μορφή</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>Πορτρέτο μορφή</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>Τετράγωνο σχήμα</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>αντίγραφο</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>περικοπή</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>αριστερά</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>δικαίωμα</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>περιστροφή αριστερά</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>περιστροφή δεξιά</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>Επιλογή όλων</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>αποχωρήσετε από όλα</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>Εικόνα</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>Προσθήκη εικόνων</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>όλες τις εικόνες</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>επόμενο</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>προηγούμενη</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>αποθηκεύσει εικόνες</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>Μέγεθος</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>Επιλέξτε εικόνες στην προσθήκη</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>Ποιότητας</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>"Άκυρο"</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>Τίποτα δεν επιλέγεται</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>Δεν άλλες οθόνες κλειδαριά</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>Αντίγραφο</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>Δεν οθόνες κλειδαριά διαθέσιμη</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να δημιουργήσετε την πρώτη οθόνη κλειδαριών σας</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία οθόνη κλειδαριών.
+Πρέπει να υπάρχει τουλάχιστον μία φωτογραφία.</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>κάντε κλικ εδώ</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>Δεν διαθέσιμες εικόνες</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>Πρέπει να υπάρχει τουλάχιστον μία εικόνα</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>Χρώμα έμφασης</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>Κλειδαριά οθόνη συσκευή εναλλαγής</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>Διαγραφή οθόνη κλειδαριών με όλες τις εικόνες και τις ρυθμίσεις</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>Φόντο παράγοντες για αυτήν την εφαρμογή έχουν απενεργοποιηθεί από το χρήστη</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>Πληροφορίες χρώμα</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>Μέγεθος πληροφορίες</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>Πληροφορίες διαφάνειας</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>Είπες Οχι, έτσι δεν μπορώ να ενημερώνω το φόντο σας</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>Ενεργοποιημένη οθόνη κλειδαριών αλλαγή</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>Ανανέωση</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>Πρώτα να δημιουργήσετε μια οθόνη κλειδαριών</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>Δεν έχει οριστεί</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>Αποθηκεύσετε και να μοιραστείτε</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>Μπορεί πλέον να αλλάξει η οθόνη κλειδαριών</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>Μόνο διαθέσιμα στην πλήρη έκδοση</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>Εικόνα σώθηκε</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>φόρτωσης...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>Ανανέωση δεν είναι δυνατόν</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>Ρυθμίσεις ελέγχου</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>Δεν διαθέσιμες εικόνες</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να προσθέσετε τις εικόνες</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>Φόντο</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>Κορνίζα</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>Χρώμα φόντου</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>Εικόνες φόντου</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>Μέγιστη</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>Ελάχιστο</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>Εικόνες διαφάνεια</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>Μην χρησιμοποιείτε</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>Χρήση</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>Πληροφορίες χρήστη</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>Χρήστη εικόνες</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>Χρώμα γραμματοσειράς</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>Κειμένου</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>Κατακόρυφη στοίχιση</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>Ήδη χρησιμοποιούνται χρώματα</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>Χρώμα προσκηνίου</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>Πληροφορίες φόντο</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>Σύστημα χρώματα</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>Διαφάνεια</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>Την αγορά αυτό το app</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>Επαφής</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>Μήνυμα προς xtrose</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>Ποσοστό αυτό το app</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>Η εφαρμογή αυτή φαίνεται να απευθύνω έκκληση σε εσάς.
+Πρόγραμμα apps είναι χρονοβόρα και δύσκολη.
+Μια καλή αναθεώρηση μπορεί να μας βοηθήσει να διαδώσει περαιτέρω.
+
+Σε ευχαριστώ πολύ</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>ημέρα</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>ημέρες</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>ώρα</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>Σας ευχαριστούμε που αγοράσατε αυτό το app</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>Μήνυμα προς xtrose</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>Τώρα δεν</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>Ρυθμός</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>Παρακαλούμε αναθεώρηση αυτή app 5 αστέρια</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>Δεν θέλετε να γράψετε μία κριτική.
+
+Παρακαλούμε γράψτε ένα μήνυμα μας εάν έχετε οποιεσδήποτε προτάσεις ή τα προβλήματα.</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>Ευχαριστώ πάρα πολύ</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>Δοκιμαστικής περιόδου που έληξε</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>Εύκολα δημιουργήστε μια οθόνη κλειδαριών όπως Windows 10.
+Χρησιμοποιήσετε τις εικόνες σας και να δείτε πώς η οθόνη κλειδαριών σας αλλάζει κάθε μισή ώρα.
+Υπάρχουν πολλές επιλογές διαθέσιμες για αυτό.
+Θα μείνετε καταπληκτικός!
+
+- Υποστηρίζει όλα μορφές προβολής
+- Δημιουργήθηκε κάθε 30 λεπτά, μια νέα οθόνη κλειδαριών από 3 διαφορετικές μορφές εικόνας
+- Μεταβαλλόμενες εικόνες φόντου
+- Αλλαγή χρήστη εικόνες
+- Πληροφορίες προχωρημένος χρήστης
+- Ρυθμιζόμενο χρώματα
+- Χρήση του απείρως πολλές εικόνες
+- Απεριόριστες δυνατότητες</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>Οθόνη κλειδαριών</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>Εικόνα φόντου</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>Ταπετσαρία</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>Εκθέτω εικόνα</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>Εικόνα της επιφάνειας εργασίας</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>φωτογραφία φωτογραφία εικόνα εικόνα σχεδιασμός γραφικών</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>Προσθήκη επιλεγεί εικόνων σε προηγουμένως</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>Αλλαγή γλώσσας</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>Εμφάνιση</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>Να απαιτούνται</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>Τυχαία</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>Τυχαία από το σύνολο</value>
+</data>
+</root>

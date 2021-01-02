@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 قفل الشاشة</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>إنشاء جديد</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>القائمة البند</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>شاشات قفل</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>نظرة عامة</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>خطأ! الاسم بالفعل في استخدام أو أحرف غير صالحة!</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>قفل الشاشة</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>لون الإطار</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>حجم الإطار</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>تنسيق المناظر الطبيعية</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>تنسيق صورة</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>تنسيق ساحة</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>نسخة</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>قطع</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>اليسار</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>الحق</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>دوران لليسار</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>دوران لليمين</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>تحديد كافة</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>إلغاء تحديد الكل</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>صور</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>إضافة صور</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>كل الصور</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>سابقة</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>الصور المحفوظة</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>تحديد الصور إلى الوظيفة</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>لا شيء مختارة</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>لا شاشات القفل أخرى</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>لا شاشات قفل متاحة</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>اضغط هنا لإنشاء أول شاشة القفل الخاص بك</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>غير قادر على خلق شاشة القفل.
+يجب أن يكون هناك صورة واحدة على الأقل.</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>انقر هنا</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>لا الصور المتوفرة</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>يجب أن يكون هناك صورة واحدة على الأقل</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>لون اللكنة</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>المغير قفل الشاشة</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>حذف قفل الشاشة مع جميع الصور والإعدادات</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>تم تعطيل كلاء  خلفية لهذا التطبيق من قبل المستخدم</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>معلومات اللون</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>معلومات حجم</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>معلومات الشفافية</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>قلتم لا، لذلك أنا لا يمكن تحديث الخلفية الخاصة بك</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>مكنت  شاشة تغيير القفل</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>تجديد</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>إنشاء أول شاشة القفل</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>لا يتم تعيين</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>حفظ ونصيب</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>قفل الشاشة لم تعد قادرة على أن تتغير</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>متوفر فقط في النسخة الكاملة</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>تم حفظ  صورة</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>تحميل ...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>تحميل غير ممكن</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>تحقق من إعدادات</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>لا الصور المتوفرة</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>اضغط هنا لإضافة الصور</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>خلفية</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>إطار الصورة</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>صور</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>الصور الخلفية</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>الحد الأقصى</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>الدنيا</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>صور الشفافية</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>لا تستخدم</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>استخدام</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>المعلومات العضو</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>الصور  العضو</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>لون الخط</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>النص</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>المحاذاة الرأسية</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>استخدمت بالفعل الألوان</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>المقدمة اللون</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>خلفية معلومات</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>الألوان النظام</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>الشفافية</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>شراء هذا التطبيق</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>الاتصال</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>رسالة إلى xtrose</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>سعر هذا التطبيق</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>هذا التطبيق يبدو أن يروق لك.
+لبرمجة التطبيقات وقتا طويلا وصعبا.
+A استعراض جيد يمكن أن تساعدنا على نشر أكثر من ذلك.
+
+شكرا جزيلا</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>أيام</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>ساعة</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>شكرا لكم لشراء هذا التطبيق</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>رسالة إلى xtrose</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>ليس الآن</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>يرجى مراجعة هذا التطبيق 5 نجوم</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>لا تريد أن تكتب رأيا.
+
+يرجى إرسال رسالة لنا إذا كان لديك أي اقتراحات أو مشاكل.</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>ولكم جزيل الشكر</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>الفترة التجريبية انتهت</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>بسهولة إنشاء شاشة القفل كما هو الحال في ويندوز 10.
+استخدام الصور الخاصة بك، ونرى كيف تتغير شاشة القفل الخاص بك كل نصف ساعة.
+هناك العديد من الخيارات المتاحة لهذا الغرض.
+عليك أن تكون عن دهشتها!
+
+- يدعم جميع تنسيقات العرض
+- إنشاء كل 30 دقيقة صورة شاشة قفل جديد من 3 مختلفة الأشكال
+- تغيير صور الخلفية
+- تغيير صورة المستخدم
+- معلومات المستخدم متقدم
+- ألوان قابل للتعديل
+- التي لا نهاية لها من إمكانيات</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>قفل الشاشة</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>صورة الخلفية</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>خلفيات</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>عرض الصورة</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>صور سطح المكتب</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>صور تصميم صور صورة صورة الرسومات</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>إضافة صور مختارة إليها سابقا</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>نسخة تجريبية</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>المظهر</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>مطلوب</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>عشوائي</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>عشوائياً من جميع</value>
+</data>
+</root>

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>10.0 Màn hình khóa</value>
+  </data>
+  <data name="X002_createNew" xml:space="preserve">
+    <value>Tạo mới</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Mục trình đơn</value>
+  </data>
+  <data name="X002_about" xml:space="preserve">
+    <value>Về</value>
+  </data>
+  <data name="X002_lockScreens" xml:space="preserve">
+    <value>Màn hình khóa</value>
+  </data>
+  <data name="X002_overview" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="X002_settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="X002_errorName" xml:space="preserve">
+    <value>LỖI! Tên đã sử dụng hoặc các ký tự không hợp lệ!</value>
+  </data>
+  <data name="X002_lockScreen" xml:space="preserve">
+    <value>Màn hình khóa</value>
+  </data>
+  <data name="X002_backgroundColor" xml:space="preserve">
+    <value>Màu nền</value>
+  </data>
+  <data name="X002_frameColor" xml:space="preserve">
+    <value>Khung màu</value>
+  </data>
+  <data name="X002_frameSize" xml:space="preserve">
+    <value>Kích thước khung hình</value>
+  </data>
+  <data name="X002_landscapeFormat" xml:space="preserve">
+    <value>Định dạng PHG cảnh</value>
+  </data>
+  <data name="X002_portraitFormat" xml:space="preserve">
+    <value>Chân dung định dạng</value>
+  </data>
+  <data name="X002_squareFormat" xml:space="preserve">
+    <value>Vuông định dạng</value>
+  </data>
+  <data name="X002_copy" xml:space="preserve">
+    <value>bản sao</value>
+  </data>
+  <data name="X002_cut" xml:space="preserve">
+    <value>cắt</value>
+  </data>
+  <data name="X002_delete" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="X002_left" xml:space="preserve">
+    <value>trái</value>
+  </data>
+  <data name="X002_right" xml:space="preserve">
+    <value>phải</value>
+  </data>
+  <data name="X002_rotateLeft" xml:space="preserve">
+    <value>xoay trái</value>
+  </data>
+  <data name="X002_rotateRight" xml:space="preserve">
+    <value>xoay ngay</value>
+  </data>
+  <data name="X002_selectAll" xml:space="preserve">
+    <value>chọn tất cả</value>
+  </data>
+  <data name="X002_add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="X002_unselectAll" xml:space="preserve">
+    <value>loại bỏ tất cả</value>
+  </data>
+  <data name="X002_picture" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="X002_pictures" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="X002_addPictures" xml:space="preserve">
+    <value>Hình ảnh thêm</value>
+  </data>
+  <data name="X002_allPictures" xml:space="preserve">
+    <value>tất cả hình ảnh</value>
+  </data>
+  <data name="X002_next" xml:space="preserve">
+    <value>tiếp theo</value>
+  </data>
+  <data name="X002_previous" xml:space="preserve">
+    <value>trước</value>
+  </data>
+  <data name="X002_savedPictures" xml:space="preserve">
+    <value>lưu hình ảnh</value>
+  </data>
+  <data name="X002_size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="X002_addNoImages" xml:space="preserve">
+    <value>Chọn hình ảnh để thêm</value>
+  </data>
+  <data name="X002_quality" xml:space="preserve">
+    <value>Chất lượng</value>
+  </data>
+  <data name="X002_cancel" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="X002_msgDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="X002_nothingSelected" xml:space="preserve">
+    <value>Không có gì được chọn</value>
+  </data>
+  <data name="X002_noLockScreens" xml:space="preserve">
+    <value>Không có màn hình khóa khác</value>
+  </data>
+  <data name="X002_msgCopy" xml:space="preserve">
+    <value>Bản sao</value>
+  </data>
+  <data name="X002_noLockScreens1" xml:space="preserve">
+    <value>Không có màn hình khóa có sẵn</value>
+  </data>
+  <data name="X002_noLockScreens2" xml:space="preserve">
+    <value>Bấm vào đây để tạo ra màn hình khóa đầu tiên của bạn</value>
+  </data>
+  <data name="X002_noPicturesAvailable" xml:space="preserve">
+    <value>Không thể tạo khóa màn hình.
+Phải có ít nhất một hình ảnh.</value>
+  </data>
+  <data name="X002_clickHere" xml:space="preserve">
+    <value>Bấm vào đây</value>
+  </data>
+  <data name="X002_preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="X002_deleteLockScreen" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="X002_noPictures" xml:space="preserve">
+    <value>Không có hình ảnh có sẵn</value>
+  </data>
+  <data name="X002_noPictures2" xml:space="preserve">
+    <value>Phải có ít nhất một hình ảnh</value>
+  </data>
+  <data name="X002_accentColor" xml:space="preserve">
+    <value>Màu nhấn</value>
+  </data>
+  <data name="X002_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="X002_yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="X002_backgroundTask" xml:space="preserve">
+    <value>Khóa màn hình changer</value>
+  </data>
+  <data name="X002_deleteMessage" xml:space="preserve">
+    <value>Xóa khóa màn hình với tất cả các hình ảnh và cài đặt</value>
+  </data>
+  <data name="X002_exError" xml:space="preserve">
+    <value>Đại lý nền cho ứng dụng này đã bị vô hiệu hoá bởi người dùng</value>
+  </data>
+  <data name="X002_infoColor" xml:space="preserve">
+    <value>Thông tin màu</value>
+  </data>
+  <data name="X002_infoSize" xml:space="preserve">
+    <value>Thông tin kích thước</value>
+  </data>
+  <data name="X002_infoTransparency" xml:space="preserve">
+    <value>Thông tin minh bạch</value>
+  </data>
+  <data name="X002_lockHelperInfo" xml:space="preserve">
+    <value>Bạn đã nói không, vì vậy tôi không thể cập nhật nền của bạn</value>
+  </data>
+  <data name="X002_taskInfo" xml:space="preserve">
+    <value>Thay đổi màn hình khóa kích hoạt</value>
+  </data>
+  <data name="X002_warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="X002_generateNew" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="X002_noLockScreens3" xml:space="preserve">
+    <value>Đầu tiên tạo ra một màn hình khóa</value>
+  </data>
+  <data name="X002_notSet" xml:space="preserve">
+    <value>Không được thiết lập</value>
+  </data>
+  <data name="X002_saveAndShare" xml:space="preserve">
+    <value>Tiết kiệm và chia sẻ</value>
+  </data>
+  <data name="X002_lockScreenOff" xml:space="preserve">
+    <value>Màn hình khóa không còn có thể thay đổi</value>
+  </data>
+  <data name="X002_onlyFullVersion" xml:space="preserve">
+    <value>Chỉ có sẵn trong các phiên bản đầy đủ</value>
+  </data>
+  <data name="X002_save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="X002_saved" xml:space="preserve">
+    <value>Hình ảnh đã được lưu</value>
+  </data>
+  <data name="X002_loading" xml:space="preserve">
+    <value>tải...</value>
+  </data>
+  <data name="X002_noLockScreens5" xml:space="preserve">
+    <value>Làm mới không thể</value>
+  </data>
+  <data name="X002_noLockScreens6" xml:space="preserve">
+    <value>Cài đặt phòng</value>
+  </data>
+  <data name="X002_noPictures5" xml:space="preserve">
+    <value>Không có hình ảnh có sẵn</value>
+  </data>
+  <data name="X002_noPictures6" xml:space="preserve">
+    <value>Bấm vào đây để thêm hình ảnh</value>
+  </data>
+  <data name="X002_headerBackground" xml:space="preserve">
+    <value>Nền</value>
+  </data>
+  <data name="X002_headerFrame" xml:space="preserve">
+    <value>Hình ảnh khung</value>
+  </data>
+  <data name="X002_headerPictures" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="X002_lpBackgroundColor" xml:space="preserve">
+    <value>Màu nền</value>
+  </data>
+  <data name="X002_lpBackgroundPictures" xml:space="preserve">
+    <value>Hình ảnh nền</value>
+  </data>
+  <data name="X002_maximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="X002_minimum" xml:space="preserve">
+    <value>Tối thiểu</value>
+  </data>
+  <data name="X002_pictureTransparency" xml:space="preserve">
+    <value>Hình ảnh minh bạch</value>
+  </data>
+  <data name="X002_doNotUse" xml:space="preserve">
+    <value>Không sử dụng</value>
+  </data>
+  <data name="X002_use" xml:space="preserve">
+    <value>Sử dụng</value>
+  </data>
+  <data name="X002_userInformations" xml:space="preserve">
+    <value>Thông tin người dùng</value>
+  </data>
+  <data name="X002_userPictures" xml:space="preserve">
+    <value>Người sử dụng hình ảnh</value>
+  </data>
+  <data name="X002_fontColor" xml:space="preserve">
+    <value>Màu sắc font</value>
+  </data>
+  <data name="X002_text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="X002_verticalAlignment" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="X002_colorsUsed" xml:space="preserve">
+    <value>Đã được sử dụng màu sắc</value>
+  </data>
+  <data name="X002_foregroundColor" xml:space="preserve">
+    <value>Màu sắc của foreground</value>
+  </data>
+  <data name="X002_informationBackground" xml:space="preserve">
+    <value>Thông tin nền</value>
+  </data>
+  <data name="X002_systemColors" xml:space="preserve">
+    <value>Hệ thống màu sắc</value>
+  </data>
+  <data name="X002_transparency" xml:space="preserve">
+    <value>Minh bạch</value>
+  </data>
+  <data name="X002_buy" xml:space="preserve">
+    <value>Mua ứng dụng này</value>
+  </data>
+  <data name="X002_contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="X002_contactMsg" xml:space="preserve">
+    <value>Tin nhắn đến xtrose</value>
+  </data>
+  <data name="X002_rate" xml:space="preserve">
+    <value>Tỷ lệ ứng dụng này</value>
+  </data>
+  <data name="X002_rateText1" xml:space="preserve">
+    <value>Ứng dụng này dường như kháng cáo cho bạn.
+Để chương trình ứng dụng là tốn thời gian và khó khăn.
+Một đánh giá tốt có thể giúp chúng tôi để truyền bá nó thêm.
+
+Cảm ơn rất nhiều</value>
+  </data>
+  <data name="X002_day" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="X002_days" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="X002_hour" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="X002_hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="X002_minute" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="X002_minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="X002_purchaseNote" xml:space="preserve">
+    <value>Cảm ơn bạn đã mua ứng dụng này</value>
+  </data>
+  <data name="X002_rateBtnBack" xml:space="preserve">
+    <value>Trở lại</value>
+  </data>
+  <data name="X002_rateBtnMsg" xml:space="preserve">
+    <value>Tin nhắn đến xtrose</value>
+  </data>
+  <data name="X002_rateBtnNotNow" xml:space="preserve">
+    <value>Không phải bây giờ</value>
+  </data>
+  <data name="X002_rateBtnRate" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="X002_rateHeader" xml:space="preserve">
+    <value>Xin vui lòng xem xét này ứng dụng 5 sao</value>
+  </data>
+  <data name="X002_rateText2" xml:space="preserve">
+    <value>Không muốn viết một bài đánh giá.
+
+Xin vui lòng viết thư cho chúng tôi nếu bạn có bất kỳ lời đề nghị hoặc các vấn đề.</value>
+  </data>
+  <data name="X002_thankYou" xml:space="preserve">
+    <value>Cảm ơn bạn rất nhiều</value>
+  </data>
+  <data name="X002_trialExpired" xml:space="preserve">
+    <value>Hết hạn giai đoạn dùng thử</value>
+  </data>
+  <data name="AAA0" xml:space="preserve">
+    <value>Dễ dàng tạo ra một màn hình khóa như trong Windows 10.
+Sử dụng hình ảnh riêng của bạn và xem như thế nào của bạn màn hình khóa thay đổi mỗi nửa giờ.
+Có rất nhiều lựa chọn có sẵn cho việc này.
+Bạn sẽ ngạc nhiên!
+
+- Hỗ trợ tất cả Hiển thị định dạng
+- Tạo mỗi 30 phút một màn hình khóa mới từ 3 khác nhau hình ảnh định dạng
+- Thay đổi hình ảnh nền
+- Thay đổi người dùng hình ảnh
+- Thông tin người dùng chuyên sâu
+- Điều chỉnh màu sắc
+- Sử dụng của vô hạn đếm được nhiều hình ảnh
+- Khả năng vô tận</value>
+  </data>
+  <data name="AAA1" xml:space="preserve">
+    <value>Màn hình khóa</value>
+  </data>
+  <data name="AAA2" xml:space="preserve">
+    <value>Hình ảnh nền</value>
+  </data>
+  <data name="AAA3" xml:space="preserve">
+    <value>Hình nền</value>
+  </data>
+  <data name="AAA4" xml:space="preserve">
+    <value>Hình ảnh hiển thị</value>
+  </data>
+  <data name="AAA5" xml:space="preserve">
+    <value>Hình ảnh máy tính để bàn</value>
+  </data>
+  <data name="AAA6" xml:space="preserve">
+    <value>hình ảnh hình ảnh hình ảnh hình ảnh đồ họa thiết kế</value>
+  </data>
+  <data name="X002_cutSelected" xml:space="preserve">
+    <value>Thêm lựa chọn hình ảnh để trước đây</value>
+  </data>
+  <data name="X002_changeLanguage" xml:space="preserve">
+    <value>Thay đổi ngôn ngữ</value>
+  </data>
+  <data name="X002_language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="X_001_trialVersion" xml:space="preserve">
+    <value>Phiên bản dùng thử</value>
+  </data>
+  <data name="X003_look" xml:space="preserve">
+<value>Xuất hiện</value>
+</data>
+  <data name="X003_required" xml:space="preserve">
+<value>Yêu cầu</value>
+</data>
+  <data name="X003_random" xml:space="preserve">
+<value>Ngẫu nhiên</value>
+</data>
+  <data name="X003_randomAll" xml:space="preserve">
+<value>Ngẫu nhiên từ tất cả</value>
+</data>
+</root>
